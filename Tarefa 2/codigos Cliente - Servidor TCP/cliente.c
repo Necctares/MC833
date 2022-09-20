@@ -18,10 +18,10 @@ int main(int argc, char **argv) {
     char   error[MAXLINE + 1];
     struct sockaddr_in servaddr;
 
-    if (argc != 2) {
+    if (argc != 3) {
         strcpy(error,"uso: ");
         strcat(error,argv[0]);
-        strcat(error," <IPaddress>");
+        strcat(error," <IPaddress> <Port>");
         perror(error);
         exit(1);
     }
@@ -33,12 +33,16 @@ int main(int argc, char **argv) {
 
     bzero(&servaddr, sizeof(servaddr));
     servaddr.sin_family = AF_INET;
-    servaddr.sin_port   = htons(13);
+    /** Questão 3 
+     * Modificado de htons(13) -> porta privilegiada
+                                   para htons(22350) -> porta 'comum'
+    */
+    servaddr.sin_port   = htons(atoi(argv[2]));
     if (inet_pton(AF_INET, argv[1], &servaddr.sin_addr) <= 0) {
         perror("inet_pton error");
         exit(1);
     }
-
+    
     if (connect(sockfd, (struct sockaddr *) &servaddr, sizeof(servaddr)) < 0) {
         perror("connect error");
         exit(1);
