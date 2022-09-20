@@ -8,13 +8,15 @@
 #include <sys/socket.h>
 #include <time.h>
 #include <unistd.h>
-//Includes adicionado para questão 4
+//Includes adicionados posteriormente
 #include <ifaddrs.h>
 #include <arpa/inet.h>
 #include <string.h>
 
 #define LISTENQ 10
 #define MAXDATASIZE 100
+// Questão 7 -> Define o tamanho maximo de caracteres lidos da mensagem do cliente.
+#define MAXCLIREAD 255
 
 int main (int argc, char **argv) {
     int    listenfd, connfd;
@@ -40,6 +42,7 @@ int main (int argc, char **argv) {
      */
     servaddr.sin_port = htons(0);
 
+    // Questão 4 -> Pegar o IP Local da interface definida como "default" -> Passa esse endereço para a variavel host
     FILE *f;
     char line[100] , *p , *c;
     
@@ -64,6 +67,7 @@ int main (int argc, char **argv) {
         perror("getifaddrs");
         exit(1);
     }
+
     int family;
     char host[NI_MAXHOST];
     for (struct ifaddrs *ifa = actualIP; ifa != NULL; ifa = ifa->ifa_next){
@@ -73,10 +77,12 @@ int main (int argc, char **argv) {
             break;
         }
     }
+
     /* Questão 4 -> Modificado servaddr.sin_addr.s_addr = htonl(INADDR_ANY)
     *               para servaddr.sin_addr.s_addr = htonl(host)
     */
     servaddr.sin_addr.s_addr = inet_addr(host);
+    // --------------------------------------------------------------------
 
     if (bind(listenfd, (struct sockaddr *)&servaddr, sizeof(servaddr)) == -1) {
         perror("bind");
@@ -95,20 +101,53 @@ int main (int argc, char **argv) {
     socklen_t len = sizeof(myaddr);
     if(getsockname(listenfd, (struct sockaddr *) &myaddr, &len) == -1)
         perror("getsockname");
-    printf("Server started with IP :: %s and PORT:: %u\n", host, ntohs(myaddr.sin_port));
+    printf("Server started with IP :: %s and PORT:: %u\n\n", host, ntohs(myaddr.sin_port));
+    // ----------------------------------------------------------------------------------
 
+    // Questão 6 -> Inicializa variaveis para serem usadas no getpeername
+    struct sockaddr_in connAddr;
+    socklen_t connLen = sizeof(connAddr);
+    char connAddrIP[INET_ADDRSTRLEN];
+    // ------------------------------------------------------------------
+    // Questão 7 -> Inicializa buffer de leitura da mensagem do cliente
+    char recvline[MAXCLIREAD + 1];
+    int n;
+    // ------------------------------------------------------------------
     for ( ; ; ) {
-      if ((connfd = accept(listenfd, (struct sockaddr *) NULL, NULL)) == -1 ) {
+        if ((connfd = accept(listenfd, (struct sockaddr *) NULL, NULL)) == -1 ) {
         perror("accept");
         exit(1);
         }
+
+        // Questão 6 -> Utilizamos getpeername para obter as informações do socket remoto
+        if (getpeername(connfd, (struct sockaddr *) &connAddr, &connLen) == -1){
+            perror("getpeername");
+            exit(1);
+        }
+        inet_ntop(AF_INET, &(connAddr.sin_addr.s_addr), connAddrIP, INET_ADDRSTRLEN);
+        printf("Questao 6 -> Socket Remoto Cliente IP :: %s and PORT:: %u\n", connAddrIP, ntohs(connAddr.sin_port));
+        // --------------------------------------------------------------------------------------------
+
+        // Questão 7 -> Lê a mensagem enviada pelo cliente
+        char msg[MAXCLIREAD + 14] = "Questao 7 -> ";
+        memset(recvline,0,sizeof(recvline));
+        n = read(connfd, recvline, MAXCLIREAD);
+        if (fputs(strcat(msg, recvline), stdout) == EOF) {
+            perror("fputs error");
+            exit(1);
+        }
+        if (n < 0) {
+            perror("read error");
+            exit(1);
+        }
+        // ---------------------------------------------------
 
         ticks = time(NULL);
         snprintf(buf, sizeof(buf), "Hello from server!\nTime: %.24s\r\n", ctime(&ticks));
         write(connfd, buf, strlen(buf));
 
-
         close(connfd);
+        printf("\n----------------- Aguardando proxima conexao -------------------------------\n\n");
     }
     return(0);
 }

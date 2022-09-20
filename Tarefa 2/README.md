@@ -25,4 +25,7 @@ Fizemos algumas alterações no arquivo servidor.c e cliente.c (ver comentarios 
 
 # Q5
 
+# Q8
 
+Send(), sendto(), sendmsg() -> Write msg
+recv(), recvfrom() -> Read msg
