@@ -20,7 +20,7 @@ int main(int argc, char **argv) {
     char   error[MAXLINE + 1];
     struct sockaddr_in servaddr;
 
-    // Questão 3 -> Adicionado o uso do argumento port em argv[2]
+    // Questão 4 -> Adicionado o uso do argumento port em argv[2]
     if (argc != 3) {
         strcpy(error,"uso: ");
         strcat(error,argv[0]);
