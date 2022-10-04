@@ -1,0 +1,4 @@
+ifconfig
+pwd
+ls -l
+EXIT

@@ -12,7 +12,6 @@
 #include <ifaddrs.h>
 #include <arpa/inet.h>
 
-#define FILE_MODE "a"
 #define LISTENQ 10
 #define MAXCLIREAD 255
 #define MAXLINE 4096
@@ -101,7 +100,7 @@ int initializeServer(char *port)
     return listenfd;
 }
 
-int readMsg(int connfd, FILE *stream, char* clientIP, uint16_t clientPort)
+int readMsg(int connfd, FILE *stream, char *clientIP, uint16_t clientPort)
 {
     char recvline[MAXCLIREAD + 1];
     char clientInfo[80];
@@ -127,14 +126,15 @@ int readMsg(int connfd, FILE *stream, char* clientIP, uint16_t clientPort)
     return 0;
 }
 
-char *queryMsg(int connfd, FILE *stream, char* clientIP, uint16_t clientPort)
+int *queryMsg(int connfd, FILE *stream, FILE *cmd, char *clientIP, uint16_t clientPort)
 {
-    char *servMsg = (char *)malloc((MAXCLIREAD + 1) * sizeof(char));
-    fflush(stdout);
-    fgets(servMsg, sizeof(servMsg), stdin);
-    write(connfd, servMsg, strlen(servMsg));
-    readMsg(connfd, stream, clientIP, clientPort);
-    return servMsg;
+    char servMsg[MAXCLIREAD + 1];
+    while (fgets(servMsg, sizeof(servMsg), cmd) != NULL || strncmp(servMsg, "EXIT", strlen("EXIT")) != 0)
+    {
+        write(connfd, servMsg, strlen(servMsg));
+        readMsg(connfd, stream, clientIP, clientPort);
+    }
+    return 0;
 }
 
 int runServer(char *port)
@@ -144,7 +144,7 @@ int runServer(char *port)
     struct sockaddr_in connAddr;
     socklen_t connLen = sizeof(connAddr);
     char connAddrIP[INET_ADDRSTRLEN];
-    char *query = NULL;
+    pid_t pid;
 
     listenfd = initializeServer(port);
 
@@ -156,36 +156,42 @@ int runServer(char *port)
             exit(1);
         }
 
-        ticks = time(NULL);
-
-        // Utilizamos getpeername para obter as informações do socket remoto
-        if (getpeername(connfd, (struct sockaddr *)&connAddr, &connLen) == -1)
+        if ((pid = fork()) == 0)
         {
-            perror("getpeername");
-            exit(1);
+            close(listenfd);
+
+            ticks = time(NULL);
+
+            // Utilizamos getpeername para obter as informações do socket remoto
+            if (getpeername(connfd, (struct sockaddr *)&connAddr, &connLen) == -1)
+            {
+                perror("getpeername");
+                exit(1);
+            }
+
+            inet_ntop(AF_INET, &(connAddr.sin_addr.s_addr), connAddrIP, INET_ADDRSTRLEN);
+            printf("CONNECTED -> Remote Socket from client IP :: %s and PORT:: %u at time :: %.24s\n", connAddrIP, ntohs(connAddr.sin_port), ctime(&ticks));
+
+            FILE *saveMessage;
+            FILE *cmdMessage;
+            cmdMessage = fopen("commands.txt", "r");
+            saveMessage = fopen("queryResult.txt", "a");
+            if (saveMessage == NULL || cmdMessage == NULL)
+            {
+                perror("fopen");
+                exit(1);
+            }
+            queryMsg(connfd, saveMessage, cmdMessage, connAddrIP, ntohs(connAddr.sin_port));
+            fclose(saveMessage);
+            fclose(cmdMessage);
+
+            close(connfd);
+            sleep(10);
+            printf("DISCONNECTED -> Remote Socket from client IP :: %s and PORT:: %u at time :: %.24s\n", connAddrIP, ntohs(connAddr.sin_port), ctime(&ticks));
+            exit(0);
         }
-
-        inet_ntop(AF_INET, &(connAddr.sin_addr.s_addr), connAddrIP, INET_ADDRSTRLEN);
-        printf("CONNECTED -> Remote Socket from client IP :: %s and PORT:: %u at time :: %.24s\n", connAddrIP, ntohs(connAddr.sin_port), ctime(&ticks));
-
-        FILE *f;
-        f = fopen("queryResult.txt", FILE_MODE);
-        if (f == NULL)
-        {
-            perror("fopen");
-            exit(1);
-        }
-        do
-        {
-            if (query != NULL)
-                free(query);
-            printf("Send a command to the client (Max %d characters, type 'exit' to end):\n", MAXCLIREAD);
-            query = queryMsg(connfd, f, connAddrIP, ntohs(connAddr.sin_port));
-        } while (strcmp(query, "exit\n") != 0);
-        fclose(f);
 
         close(connfd);
-        printf("DISCONNECTED -> Remote Socket from client IP :: %s and PORT:: %u at time :: %.24s\n", connAddrIP, ntohs(connAddr.sin_port), ctime(&ticks));
     }
     return 0;
 }

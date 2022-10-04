@@ -100,7 +100,7 @@ int main(int argc, char **argv)
             free(recvline);
         recvline = readMsg(sockfd);
         sendMsg(sockfd, recvline);
-    }while(strcmp(recvline, "exit\n") != 0);
+    }while(strncmp(recvline, "EXIT", strlen("EXIT")) != 0);
 
     return 0;
 }
