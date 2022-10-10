@@ -13,6 +13,7 @@
 #define LISTENQ 10
 #define MAXCLIREAD 255
 #define MAXLINE 4096
+#define MAXRESPONSE 8192
 
 int startConnection(char *ipAddress, char *port)
 {
@@ -59,9 +60,9 @@ int startConnection(char *ipAddress, char *port)
     return sockfd;
 }
 
-char* readMsg(int connfd)
+char *readMsg(int connfd)
 {
-    char* recvline = (char*) malloc((MAXCLIREAD + 1) * sizeof(char));
+    char *recvline = (char *)malloc((MAXCLIREAD + 1) * sizeof(char));
     int n;
     memset(recvline, 0, sizeof(*recvline));
     n = read(connfd, recvline, MAXCLIREAD);
@@ -73,15 +74,49 @@ char* readMsg(int connfd)
     return recvline;
 }
 
-int sendMsg(int connfd, char* msg){
-    write(connfd, msg, strlen(msg));
+int sendMsg(int connfd, char *msg)
+{
+    if (strncmp(msg, "EXIT", strlen("EXIT")) == 0)
+    {
+        write(connfd, "EXIT\n", sizeof(char) * 6);
+    }
+    else
+    {
+        char response[MAXRESPONSE];
+        char output[MAXRESPONSE];
+        memset(response, 0, sizeof(response));
+        memset(output, 0, sizeof(output));
+        FILE *fp;
+        fp = popen(msg, "r");
+        if (fp == NULL)
+        {
+            write(connfd, "Failed to run command\n", sizeof(char) * 23);
+            perror("Failed to run command");
+        }
+        else
+        {
+            while (fgets(output, sizeof(output), fp) != NULL)
+            {
+                strncat(response, output, sizeof(response));
+            }
+            if (strlen(response) > 0)
+            {
+                write(connfd, response, sizeof(response));
+            }
+            else
+            {
+                write(connfd, "Failed to run command\n", sizeof(char) * 23);
+            }
+        }
+        pclose(fp);
+    }
     return 0;
 }
 
 int main(int argc, char **argv)
 {
     int sockfd;
-    char* recvline = NULL;
+    char *recvline = NULL;
     char error[MAXLINE + 1];
 
     if (argc != 3)
@@ -95,12 +130,20 @@ int main(int argc, char **argv)
 
     sockfd = startConnection(argv[1], argv[2]);
 
-    do{
+    do
+    {
         if (recvline != NULL)
             free(recvline);
         recvline = readMsg(sockfd);
         sendMsg(sockfd, recvline);
-    }while(strncmp(recvline, "EXIT", strlen("EXIT")) != 0);
+    } while (strncmp(recvline, "EXIT", strlen("EXIT")) != 0);
+
+    do
+    {
+        if (recvline != NULL)
+            free(recvline);
+        recvline = readMsg(sockfd);
+    } while (strncmp(recvline, "bye\n", strlen("bye\n")));
 
     return 0;
 }

@@ -13,7 +13,7 @@
 #include <arpa/inet.h>
 
 #define LISTENQ 10
-#define MAXCLIREAD 255
+#define MAXCLIREAD 8192
 #define MAXLINE 4096
 
 // Pega o IP Local da interface definida como "default" -> Passa esse endereço para a variavel host
@@ -100,11 +100,13 @@ int initializeServer(char *port)
     return listenfd;
 }
 
-int readMsg(int connfd, FILE *stream, char *clientIP, uint16_t clientPort)
+int readMsg(int connfd, FILE *stream, char *clientIP, uint16_t clientPort, char *servMsg)
 {
-    char recvline[MAXCLIREAD + 1];
-    char clientInfo[80];
-    sprintf(clientInfo, "Query Result from client IP :: %s and PORT :: %u\n", clientIP, clientPort);
+    char recvline[MAXCLIREAD];
+    char clientInfo[255];
+    time_t servtime;
+    servtime = time(NULL);
+    sprintf(clientInfo, "Query Result from client IP :: %s and PORT :: %u at time :: %.24s :: with the command: %s\n", clientIP, clientPort, ctime(&servtime), servMsg);
     int n;
     memset(recvline, 0, sizeof(recvline));
     n = read(connfd, recvline, MAXCLIREAD);
@@ -126,14 +128,16 @@ int readMsg(int connfd, FILE *stream, char *clientIP, uint16_t clientPort)
     return 0;
 }
 
-int *queryMsg(int connfd, FILE *stream, FILE *cmd, char *clientIP, uint16_t clientPort)
+int queryMsg(int connfd, FILE *stream, FILE *cmd, char *clientIP, uint16_t clientPort)
 {
     char servMsg[MAXCLIREAD + 1];
-    while (fgets(servMsg, sizeof(servMsg), cmd) != NULL || strncmp(servMsg, "EXIT", strlen("EXIT")) != 0)
+    do
     {
+        if (fgets(servMsg, sizeof(servMsg), cmd) == NULL)
+            return -1;
         write(connfd, servMsg, strlen(servMsg));
-        readMsg(connfd, stream, clientIP, clientPort);
-    }
+        readMsg(connfd, stream, clientIP, clientPort, servMsg);
+    } while (strncmp(servMsg, "EXIT", strlen("EXIT")) != 0);
     return 0;
 }
 
@@ -185,12 +189,14 @@ int runServer(char *port)
             fclose(saveMessage);
             fclose(cmdMessage);
 
+            write(connfd, "bye\n", strlen("bye\n"));
             close(connfd);
-            sleep(10);
+            // sleep(10); Sleep adicionado para testar multiplas conexões
             printf("DISCONNECTED -> Remote Socket from client IP :: %s and PORT:: %u at time :: %.24s\n", connAddrIP, ntohs(connAddr.sin_port), ctime(&ticks));
             exit(0);
         }
 
+        // sleep(1000); Foi adicionado para a questão 2
         close(connfd);
     }
     return 0;

@@ -1,4 +1,5 @@
-ifconfig
-pwd
-ls -l
+/sbin/ifconfig
+/bin/pwd
+comandoErrado
+/bin/ls -l
 EXIT
