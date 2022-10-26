@@ -1,0 +1,3 @@
+## Questão 1
+
+- O backlog é responsavel por determinar o numero de conexões pendentes que a fila irá manter, sendo que, quando temos multiplas conexões, o servidor irá processar essas conexões na fila, de modo que o tamanho do backlog irá determinar quantas conexões ativas + conexões incompletas poderão estar na fila. Durante o TCP 3WHS, temos duas filas, uma fila para conexões incompletas (fila SYN) e fila das conexões já completas, conexões com o estado "SYN RECEIVED" são adicionadas para a fila de conexões incompletas e depois que seu estado é mudado para "ESTABLISHED" elas são movidas para a fila de conexões já completas, onde a função "accept" irá utiliza-las.
