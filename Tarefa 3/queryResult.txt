@@ -1,0 +1,1794 @@
+Query Result from client IP :: 143.106.16.193 and PORT :: 34166 at time :: Tue Nov  1 19:41:37 2022 :: with the command: /bin/netstat -a
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:sunrpc          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:59441           0.0.0.0:*               LISTEN     
+tcp        2      0 doug.lab.ic.unicam:stss 0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unica:33982 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34188 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34062 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34052 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34180 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:41506 server-108-139-16:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34076 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34172 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34008 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33984 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39550 162.159.153.4:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34116 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34108 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47180 cg-in-f188.1e10:hpvroom ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:49530 server-108-139-16:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33986 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34168 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34080 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34166 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34014 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34184 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34092 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33972 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34182 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      1 doug.lab.ic.unica:34178 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:33994 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34010 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:42296 server-108-158-14:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicamp:940 franjinha.lab.ic.un:nfs ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34064 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34120 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33992 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34176 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:48302 162.159.152.4:https     TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:34056 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34172 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34072 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34096 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:45232 mingau.lab.ic.unic:ldap ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34174 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34068 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33980 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34186 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34078 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34012 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34002 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34168 ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34166 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33990 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34022 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35634 104.16.57.101:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34086 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48298 162.159.152.4:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33998 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34020 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34058 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34094 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33988 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34006 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33978 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33996 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34114 doug.lab.ic.unicam:stss ESTABLISHED
+tcp6       0      0 [::]:sunrpc             [::]:*                  LISTEN     
+tcp6       0      0 [::]:56627              [::]:*                  LISTEN     
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN     
+tcp6       0      0 localhost:ipp           [::]:*                  LISTEN     
+tcp6       0      0 localhost:smtp          [::]:*                  LISTEN     
+udp        0      0 doug.lab.ic.unica:47779 162.159.152.4:https     ESTABLISHED
+udp        0      0 doug.lab.ic.unica:57105 gru14s28-in-f10.1:https ESTABLISHED
+udp        0      0 0.0.0.0:53207           0.0.0.0:*                          
+udp        0      0 0.0.0.0:sunrpc          0.0.0.0:*                          
+udp        0      0 localhost:323           0.0.0.0:*                          
+udp        0      0 doug.lab.ic.unica:41308 gru06s60-in-f14.1:https ESTABLISHED
+udp        0      0 0.0.0.0:41320           0.0.0.0:*                          
+udp        0      0 localhost:937           0.0.0.0:*                          
+udp        0      0 224.0.0.251:mdns        0.0.0.0:*                          
+udp        0      0 0.0.0.0:mdns            0.0.0.0:*                          
+udp        0      0 0.0.0.0:63600           0.0.0.0:*                          
+udp6       0      0 [::]:40761              [::]:*                             
+udp6       0      0 [::]:61246              [::]:*                             
+udp6       0      0 [::]:sunrpc             [::]:*                             
+udp6       0      0 localhost:323           [::]:*                             
+udp6       0      0 [::]:mdns               [::]:*                             
+udp6       0      0 [::]:38815              [::]:*                             
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     STREAM     LISTENING     21474    /var/lib/sss/pipes/private/sbus-monitor
+unix  2      [ ACC ]     STREAM     LISTENING     55155    /tmp/.ICE-unix/9990
+unix  2      [ ACC ]     STREAM     LISTENING     49164    /tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     22975    /var/lib/sss/pipes/private/sbus-dp_default.895
+unix  2      [ ACC ]     STREAM     LISTENING     22250    /var/lib/sss/pipes/pam
+unix  2      [ ACC ]     STREAM     LISTENING     57304    /tmp/ssh-XXXXXXoYsHDv/agent.9612
+unix  2      [ ACC ]     STREAM     LISTENING     22251    /var/lib/sss/pipes/private/pam
+unix  2      [ ACC ]     STREAM     LISTENING     61177    /tmp/.com.google.Chrome.YzAjvx/SingletonSocket
+unix  2    ÁgóY
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34166 at time :: Tue Nov  1 19:41:38 2022 :: with the command: EXIT
+
+Proto  Destination       Source            State     Channel
+Proto  Destination       Source            State     Channel
+
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34172 at time :: Tue Nov  1 19:41:47 2022 :: with the command: /bin/netstat -a
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:sunrpc          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:59441           0.0.0.0:*               LISTEN     
+tcp        1      0 doug.lab.ic.unicam:stss 0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unica:33982 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34188 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34062 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34052 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34180 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:41506 server-108-139-16:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34076 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34172 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34008 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33984 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39550 162.159.153.4:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34116 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34108 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47180 cg-in-f188.1e10:hpvroom ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:49530 server-108-139-16:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33986 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34168 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34080 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34014 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34184 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34092 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33972 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34182 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      1 doug.lab.ic.unica:34178 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:33994 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34010 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:42296 server-108-158-14:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicamp:940 franjinha.lab.ic.un:nfs ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34064 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34120 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33992 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34176 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:48302 162.159.152.4:https     TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:34056 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34172 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34072 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34096 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:45232 mingau.lab.ic.unic:ldap ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34174 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34068 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33980 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34186 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34078 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34012 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34002 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34168 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33990 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34022 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35634 104.16.57.101:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34086 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48298 162.159.152.4:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33998 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34020 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34058 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34094 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33988 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34006 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33978 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33996 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34114 doug.lab.ic.unicam:stss ESTABLISHED
+tcp6       0      0 [::]:sunrpc             [::]:*                  LISTEN     
+tcp6       0      0 [::]:56627              [::]:*                  LISTEN     
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN     
+tcp6       0      0 localhost:ipp           [::]:*                  LISTEN     
+tcp6       0      0 localhost:smtp          [::]:*                  LISTEN     
+udp        0      0 doug.lab.ic.unica:47779 162.159.152.4:https     ESTABLISHED
+udp        0      0 doug.lab.ic.unica:57105 gru14s28-in-f10.1:https ESTABLISHED
+udp        0      0 0.0.0.0:53207           0.0.0.0:*                          
+udp        0      0 0.0.0.0:sunrpc          0.0.0.0:*                          
+udp        0      0 localhost:323           0.0.0.0:*                          
+udp        0      0 doug.lab.ic.unica:41308 gru06s60-in-f14.1:https ESTABLISHED
+udp        0      0 0.0.0.0:41320           0.0.0.0:*                          
+udp        0      0 localhost:937           0.0.0.0:*                          
+udp        0      0 224.0.0.251:mdns        0.0.0.0:*                          
+udp        0      0 0.0.0.0:mdns            0.0.0.0:*                          
+udp        0      0 doug.lab.ic.unica:42986 gru14s33-in-f14.1:https ESTABLISHED
+udp        0      0 0.0.0.0:63600           0.0.0.0:*                          
+udp6       0      0 [::]:40761              [::]:*                             
+udp6       0      0 [::]:61246              [::]:*                             
+udp6       0      0 [::]:sunrpc             [::]:*                             
+udp6       0      0 localhost:323           [::]:*                             
+udp6       0      0 [::]:mdns               [::]:*                             
+udp6       0      0 [::]:38815              [::]:*                             
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     STREAM     LISTENING     21474    /var/lib/sss/pipes/private/sbus-monitor
+unix  2      [ ACC ]     STREAM     LISTENING     55155    /tmp/.ICE-unix/9990
+unix  2      [ ACC ]     STREAM     LISTENING     49164    /tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     22975    /var/lib/sss/pipes/private/sbus-dp_default.895
+unix  2      [ ACC ]     STREAM     LISTENING     22250    /var/lib/sss/pipes/pam
+unix  2      [ ACC ]     STREAM     LISTENING     57304    /tmp/ssh-XXXXXXoYsHDv/agent.9612
+unix  2      [ ACC ]     STREAM     LISTENING     22251    /var/lib/sss/pipes/private/pam
+unix  2      [ ACC ]     STREAM     LISTENING     61177    /tmp/.com.google.Chrome.YzAjvx/SingletonSocket
+unix  2      [ ACC ]     STREAM     LISTENING     22221    /var/lib/sss/pipes/autofs
+unix  ÁgóY
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34172 at time :: Tue Nov  1 19:41:47 2022 :: with the command: EXIT
+
+Proto  Destination       Source            State     Channel
+Proto  Destination       Source            State     Channel
+
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34168 at time :: Tue Nov  1 19:41:57 2022 :: with the command: /bin/netstat -a
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:sunrpc          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:59441           0.0.0.0:*               LISTEN     
+tcp        3      0 doug.lab.ic.unicam:stss 0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unica:33982 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34188 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34062 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34052 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34180 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41506 server-108-139-16:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34076 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34008 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33984 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39550 162.159.153.4:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34116 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34108 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47180 cg-in-f188.1e10:hpvroom ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:49530 server-108-139-16:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33986 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34168 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34080 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34180 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34014 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34184 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34092 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33972 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34182 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34178 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34174 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33994 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34010 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:42296 server-108-158-14:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicamp:940 franjinha.lab.ic.un:nfs ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34064 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34120 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33992 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34176 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34056 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34072 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34096 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:45232 mingau.lab.ic.unic:ldap ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34174 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34068 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33980 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34186 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34078 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34012 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34002 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34168 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33990 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34022 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35634 104.16.57.101:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34086 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48298 162.159.152.4:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33998 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34020 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34058 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34094 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33988 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34006 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33978 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33996 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34176 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34114 doug.lab.ic.unicam:stss ESTABLISHED
+tcp6       0      0 [::]:sunrpc             [::]:*                  LISTEN     
+tcp6       0      0 [::]:56627              [::]:*                  LISTEN     
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN     
+tcp6       0      0 localhost:ipp           [::]:*                  LISTEN     
+tcp6       0      0 localhost:smtp          [::]:*                  LISTEN     
+udp        0      0 doug.lab.ic.unica:57105 gru14s28-in-f10.1:https ESTABLISHED
+udp        0      0 0.0.0.0:53207           0.0.0.0:*                          
+udp        0      0 0.0.0.0:sunrpc          0.0.0.0:*                          
+udp        0      0 localhost:323           0.0.0.0:*                          
+udp        0      0 doug.lab.ic.unica:41308 gru06s60-in-f14.1:https ESTABLISHED
+udp        0      0 0.0.0.0:41320           0.0.0.0:*                          
+udp        0      0 localhost:937           0.0.0.0:*                          
+udp        0      0 224.0.0.251:mdns        0.0.0.0:*                          
+udp        0      0 0.0.0.0:mdns            0.0.0.0:*                          
+udp        0      0 doug.lab.ic.unica:42986 gru14s33-in-f14.1:https ESTABLISHED
+udp        0      0 0.0.0.0:63600           0.0.0.0:*                          
+udp6       0      0 [::]:40761              [::]:*                             
+udp6       0      0 [::]:61246              [::]:*                             
+udp6       0      0 [::]:sunrpc             [::]:*                             
+udp6       0      0 localhost:323           [::]:*                             
+udp6       0      0 [::]:mdns               [::]:*                             
+udp6       0      0 [::]:38815              [::]:*                             
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     STREAM     LISTENING     21474    /var/lib/sss/pipes/private/sbus-monitor
+unix  2      [ ACC ]     STREAM     LISTENING     55155    /tmp/.ICE-unix/9990
+unix  2      [ ACC ]     STREAM     LISTENING     49164    /tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     22975    /var/lib/sss/pipes/private/sbus-dp_default.895
+unix  2      [ ACC ]     STREAM     LISTENING     22250    /var/lib/sss/pipes/pam
+unix  2      [ ACC ]     STREAM     LISTENING     57304    /tmp/ssh-XXXXXXoYsHDv/agent.9612
+unix  2      [ ACC ]     STREAM     LISTENING     22251    /var/lib/sss/pipes/private/pam
+unix  2      [ ACC ]     STREAM     LISTENING     61177    /tmp/.com.google.Chrome.YzAjvx/SingletonSocket
+unix  2      [ ACC ]     STREAM     LISTENING     22221    /var/lib/sss/pipes/autofs
+unix  2      [ ACC ]     STREAM     LISTENING     23906    /var/lib/sss/pipes/nss
+uni ÁgóY
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34168 at time :: Tue Nov  1 19:41:57 2022 :: with the command: EXIT
+
+Proto  Destination       Source            State     Channel
+Proto  Destination       Source            State     Channel
+
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34180 at time :: Tue Nov  1 19:42:07 2022 :: with the command: /bin/netstat -a
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:sunrpc          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:59441           0.0.0.0:*               LISTEN     
+tcp        2      0 doug.lab.ic.unicam:stss 0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unica:33982 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34188 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34062 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34052 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34180 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41506 server-108-139-16:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34076 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34008 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33984 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39550 162.159.153.4:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34116 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34108 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47180 cg-in-f188.1e10:hpvroom ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:49530 server-108-139-16:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33986 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34080 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34180 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34014 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34184 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34092 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33972 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34182 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34178 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34174 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33994 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34010 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:42296 server-108-158-14:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicamp:940 franjinha.lab.ic.un:nfs ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34064 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34120 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33992 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34176 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34056 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34072 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34096 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:45232 mingau.lab.ic.unic:ldap ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34174 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34068 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33980 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34186 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34078 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34012 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34002 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33990 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34022 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35634 104.16.57.101:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34086 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48298 162.159.152.4:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33998 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34020 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34058 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34094 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33988 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34006 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33978 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33996 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34176 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34114 doug.lab.ic.unicam:stss ESTABLISHED
+tcp6       0      0 [::]:sunrpc             [::]:*                  LISTEN     
+tcp6       0      0 [::]:56627              [::]:*                  LISTEN     
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN     
+tcp6       0      0 localhost:ipp           [::]:*                  LISTEN     
+tcp6       0      0 localhost:smtp          [::]:*                  LISTEN     
+udp        0      0 doug.lab.ic.unica:57105 gru14s28-in-f10.1:https ESTABLISHED
+udp        0      0 0.0.0.0:53207           0.0.0.0:*                          
+udp        0      0 doug.lab.ic.unica:57401 gru14s30-in-f14.1:https ESTABLISHED
+udp        0      0 0.0.0.0:sunrpc          0.0.0.0:*                          
+udp        0      0 localhost:323           0.0.0.0:*                          
+udp        0      0 0.0.0.0:41320           0.0.0.0:*                          
+udp        0      0 doug.lab.ic.unica:53931 gru06s60-in-f14.1:https ESTABLISHED
+udp        0      0 localhost:937           0.0.0.0:*                          
+udp        0      0 doug.lab.ic.unica:41974 gru06s62-in-f10.1:https ESTABLISHED
+udp        0      0 224.0.0.251:mdns        0.0.0.0:*                          
+udp        0      0 0.0.0.0:mdns            0.0.0.0:*                          
+udp        0      0 doug.lab.ic.unica:42986 gru14s33-in-f14.1:https ESTABLISHED
+udp        0      0 0.0.0.0:63600           0.0.0.0:*                          
+udp6       0      0 [::]:40761              [::]:*                             
+udp6       0      0 [::]:61246              [::]:*                             
+udp6       0      0 [::]:sunrpc             [::]:*                             
+udp6       0      0 localhost:323           [::]:*                             
+udp6       0      0 [::]:mdns               [::]:*                             
+udp6       0      0 [::]:38815              [::]:*                             
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     STREAM     LISTENING     21474    /var/lib/sss/pipes/private/sbus-monitor
+unix  2      [ ACC ]     STREAM     LISTENING     55155    /tmp/.ICE-unix/9990
+unix  2      [ ACC ]     STREAM     LISTENING     49164    /tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     22975    /var/lib/sss/pipes/private/sbus-dp_default.895
+unix  2      [ ACC ]     STREAM     LISTENING     22250    /var/lib/sss/pipes/pam
+unix  2      [ ACC ]     STREAM     LISTENING     57304    /tmp/ssh-XXXXXXoYsHDv/agent.9612
+unix  2      [ ACC ]     STREAM     LISTENING     22251    /var/lib/sss/pipes/private/pam
+unix  2      [ ACC ]     STREAM     LISTENING     61177    /tmp/.com.google.Chrome.YzAjvx/SingletonSocket
+unix  2      [ ACC ]     STREAM     LISTENING     22221    /var/lib/sss/pipes/autofs
+unix  2      [ ACC ]     STREAM     LISTENING     23906    /var/lib/sss/pipes/nss
+uni ÁgóY
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34180 at time :: Tue Nov  1 19:42:07 2022 :: with the command: EXIT
+
+Proto  Destination       Source            State     Channel
+Proto  Destination       Source            State     Channel
+EXIT
+
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34176 at time :: Tue Nov  1 19:42:17 2022 :: with the command: /bin/netstat -a
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:sunrpc          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:59441           0.0.0.0:*               LISTEN     
+tcp        1      0 doug.lab.ic.unicam:stss 0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unica:33982 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34188 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34062 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34052 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41506 server-108-139-16:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34076 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34008 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33984 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39550 162.159.153.4:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34116 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34108 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47180 cg-in-f188.1e10:hpvroom ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:49530 server-108-139-16:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33986 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34080 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34180 TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:34014 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34184 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34092 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33972 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34182 doug.lab.ic.unicam:stss FIN_WAIT1  
+tcp        0      1 doug.lab.ic.unica:34178 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34174 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33994 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34010 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:42296 server-108-158-14:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicamp:940 franjinha.lab.ic.un:nfs ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34064 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34120 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33992 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34176 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34056 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34072 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34096 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:45232 mingau.lab.ic.unic:ldap ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34174 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34068 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33980 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:34186 doug.lab.ic.unicam:stss SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34078 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34012 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34002 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33990 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34022 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35634 104.16.57.101:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34086 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48298 162.159.152.4:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33998 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34020 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34058 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34094 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33988 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34006 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33978 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:33996 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34176 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34114 doug.lab.ic.unicam:stss ESTABLISHED
+tcp6       0      0 [::]:sunrpc             [::]:*                  LISTEN     
+tcp6       0      0 [::]:56627              [::]:*                  LISTEN     
+tcp6       0      0 [::]:ssh                [::]:*                  LISTEN     
+tcp6       0      0 localhost:ipp           [::]:*                  LISTEN     
+tcp6       0      0 localhost:smtp          [::]:*                  LISTEN     
+udp        0      0 doug.lab.ic.unica:57105 gru14s28-in-f10.1:https ESTABLISHED
+udp        0      0 0.0.0.0:53207           0.0.0.0:*                          
+udp        0      0 doug.lab.ic.unica:57401 gru14s30-in-f14.1:https ESTABLISHED
+udp        0      0 0.0.0.0:sunrpc          0.0.0.0:*                          
+udp        0      0 localhost:323           0.0.0.0:*                          
+udp        0      0 0.0.0.0:41320           0.0.0.0:*                          
+udp        0      0 doug.lab.ic.unica:53931 gru06s60-in-f14.1:https ESTABLISHED
+udp        0      0 localhost:937           0.0.0.0:*                          
+udp        0      0 doug.lab.ic.unica:41974 gru06s62-in-f10.1:https ESTABLISHED
+udp        0      0 224.0.0.251:mdns        0.0.0.0:*                          
+udp        0      0 0.0.0.0:mdns            0.0.0.0:*                          
+udp        0      0 0.0.0.0:63600           0.0.0.0:*                          
+udp6       0      0 [::]:40761              [::]:*                             
+udp6       0      0 [::]:61246              [::]:*                             
+udp6       0      0 [::]:sunrpc             [::]:*                             
+udp6       0      0 localhost:323           [::]:*                             
+udp6       0      0 [::]:mdns               [::]:*                             
+udp6       0      0 [::]:38815              [::]:*                             
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   Path
+unix  2      [ ACC ]     STREAM     LISTENING     21474    /var/lib/sss/pipes/private/sbus-monitor
+unix  2      [ ACC ]     STREAM     LISTENING     55155    /tmp/.ICE-unix/9990
+unix  2      [ ACC ]     STREAM     LISTENING     49164    /tmp/.X11-unix/X0
+unix  2      [ ACC ]     STREAM     LISTENING     22975    /var/lib/sss/pipes/private/sbus-dp_default.895
+unix  2      [ ACC ]     STREAM     LISTENING     22250    /var/lib/sss/pipes/pam
+unix  2      [ ACC ]     STREAM     LISTENING     57304    /tmp/ssh-XXXXXXoYsHDv/agent.9612
+unix  2      [ ACC ]     STREAM     LISTENING     22251    /var/lib/sss/pipes/private/pam
+unix  2      [ ACC ]     STREAM     LISTENING     61177    /tmp/.com.google.Chrome.YzAjvx/SingletonSocket
+unix  2      [ ACC ]     STREAM     LISTENING     22221    /var/lib/sss/pipes/autofs
+unix  2      [ ACC ]     STREAM     LISTENING     23906    /var/lib/sss/pipes/nss
+unix  2      [ ACC ]     STREAM     LISTENING     55154    @/tmp/.ICE-unix/9990
+unix  2      [ ACC ]     STREAM     LISTENING     26818    private/local
+unix  2    ÁgóY
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34176 at time :: Tue Nov  1 19:42:17 2022 :: with the command: EXIT
+
+Proto  Destination       Source            State     Channel
+Proto  Destination       Source            State     Channel
+
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34216 at time :: Tue Nov  1 20:42:19 2022 :: with the command: /bin/netstat -a
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:sunrpc          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:59441           0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unicam:stss 0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unica:45302 ec2-18-207-34-27.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54882 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:40656 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54980 174.137.133.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39544 a-0005.a-msedge.n:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39022 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:59870 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53944 ip34.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:58626 104.19.159.19:https     TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:35590 a23-62-42-71.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34216 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:55906 ip186.ip-51-222-3:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37294 a104-122-245-217.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39018 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:34212 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35850 a95-101-25-134.dep:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54884 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:60488 ec2-18-156-32-70.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40660 a104-74-13-24.dep:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34206 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36794 server-108-158-14:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34212 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48618 ec2-3-210-227-164:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41178 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39024 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      1 doug.lab.ic.unica:42592 80-77-87-164.stat:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:38080 a104-122-230-227.d:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41180 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34218 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47180 cg-in-f188.1e10:hpvroom ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36226 104.244.42.1:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60040 162.248.18.11:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34204 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        1      0 doug.lab.ic.unica:59724 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:59872 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34214 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:49658 199.127.204.171:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53504 192.229.210.176:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60668 231.200.211.35.bc:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42590 80-77-87-164.stat:https SYN_SENT   
+tcp        1      0 doug.lab.ic.unica:59722 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42058 806.bm-nginx-load:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:41736 172.178.211.35.bc:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42852 52.46.155.104:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40172 server-13-227-127:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37210 13.107.42.14:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48114 ip24.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34208 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47836 69.173.151.100:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47046 server-13-227-97-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicamp:940 franjinha.lab.ic.un:nfs ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40658 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60180 49.246.178.107.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40704 139.148.107.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37114 server-18-64-174-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34202 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34208 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34206 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:45130 104.22.53.86:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34220 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:51896 199.232.114.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:43524 gru14s35-in-f14.1:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34202 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39020 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:39522 gru14s33-in-f2.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34222 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35574 140.24.207.35.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53338 192.146.102.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47048 server-13-227-97-:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:45244 mingau.lab.ic.unic:ldap ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40506 53.135.120.34.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:57002 ec2-35-170-152-34:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54716 ip-185-184-8-90.r:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39728 server-108-139-18:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47946 server-13-227-126:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60642 a104-122-239-77.d:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42004 207-207-55-241.fw:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34224 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40412 ec2-13-113-66-36.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:38376 172.64.161.6:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34218 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:56942 ec2-18-230-112-83:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41418 151.101.193.69:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34204 ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34222 ESTABLISHED
+tcp       78      0 doug.lab.ic.unica:45308 ec2-18-207-34-27.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42168 a184-84-132-23.de:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59458 gru14s19-in-f1.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40760 a2-23-189-20.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41738 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41734 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34220 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34824 ec2-52-38-91-115.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59124 gru14s20-in-f14.1:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42008 207-207-55-241 !Îî"
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34216 at time :: Tue Nov  1 20:42:52 2022 :: with the command: EXIT
+
+Proto  Destination       Source            State     Channel
+Proto  Destination       Source            State     Channel
+
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34206 at time :: Tue Nov  1 20:42:19 2022 :: with the command: /bin/netstat -a
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:sunrpc          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:59441           0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unicam:stss 0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unica:45302 ec2-18-207-34-27.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54882 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:40656 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54980 174.137.133.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39544 a-0005.a-msedge.n:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39022 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:59870 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53944 ip34.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:58626 104.19.159.19:https     TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:35590 a23-62-42-71.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34216 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:55906 ip186.ip-51-222-3:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37294 a104-122-245-217.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39018 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:34212 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35850 a95-101-25-134.dep:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54884 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:60488 ec2-18-156-32-70.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40660 a104-74-13-24.dep:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34206 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36794 server-108-158-14:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34212 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48618 ec2-3-210-227-164:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41178 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39024 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      1 doug.lab.ic.unica:42592 80-77-87-164.stat:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:38080 a104-122-230-227.d:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41180 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34218 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47180 cg-in-f188.1e10:hpvroom ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36226 104.244.42.1:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60040 162.248.18.11:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34204 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        1      0 doug.lab.ic.unica:59724 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:59872 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34214 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:49658 199.127.204.171:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53504 192.229.210.176:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60668 231.200.211.35.bc:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42590 80-77-87-164.stat:https SYN_SENT   
+tcp        1      0 doug.lab.ic.unica:59722 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42058 806.bm-nginx-load:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:41736 172.178.211.35.bc:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42852 52.46.155.104:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40172 server-13-227-127:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37210 13.107.42.14:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48114 ip24.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34208 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47836 69.173.151.100:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47046 server-13-227-97-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicamp:940 franjinha.lab.ic.un:nfs ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40658 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60180 49.246.178.107.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40704 139.148.107.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37114 server-18-64-174-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34202 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34208 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34206 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:45130 104.22.53.86:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34220 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:51896 199.232.114.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:43524 gru14s35-in-f14.1:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34202 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39020 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:39522 gru14s33-in-f2.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34222 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35574 140.24.207.35.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53338 192.146.102.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47048 server-13-227-97-:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:45244 mingau.lab.ic.unic:ldap ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40506 53.135.120.34.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:57002 ec2-35-170-152-34:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54716 ip-185-184-8-90.r:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39728 server-108-139-18:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47946 server-13-227-126:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60642 a104-122-239-77.d:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42004 207-207-55-241.fw:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34224 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40412 ec2-13-113-66-36.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:38376 172.64.161.6:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34218 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:56942 ec2-18-230-112-83:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41418 151.101.193.69:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34204 ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34222 ESTABLISHED
+tcp       78      0 doug.lab.ic.unica:45308 ec2-18-207-34-27.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42168 a184-84-132-23.de:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59458 gru14s19-in-f1.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40760 a2-23-189-20.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41738 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41734 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34220 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34824 ec2-52-38-91-115.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59124 gru14s20-in-f14.1:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42008 207-207-55-241 !Îî"
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34206 at time :: Tue Nov  1 20:42:52 2022 :: with the command: EXIT
+
+Proto  Destination       Source            State     Channel
+Proto  Destination       Source            State     Channel
+
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34222 at time :: Tue Nov  1 20:42:19 2022 :: with the command: /bin/netstat -a
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:sunrpc          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:59441           0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unicam:stss 0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unica:45302 ec2-18-207-34-27.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54882 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:40656 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54980 174.137.133.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39544 a-0005.a-msedge.n:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39022 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:59870 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53944 ip34.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:58626 104.19.159.19:https     TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:35590 a23-62-42-71.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34216 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:55906 ip186.ip-51-222-3:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37294 a104-122-245-217.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39018 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:34212 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35850 a95-101-25-134.dep:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54884 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:60488 ec2-18-156-32-70.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40660 a104-74-13-24.dep:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34206 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36794 server-108-158-14:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34212 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48618 ec2-3-210-227-164:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41178 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39024 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      1 doug.lab.ic.unica:42592 80-77-87-164.stat:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:38080 a104-122-230-227.d:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41180 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34218 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47180 cg-in-f188.1e10:hpvroom ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36226 104.244.42.1:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60040 162.248.18.11:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34204 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        1      0 doug.lab.ic.unica:59724 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:59872 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34214 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:49658 199.127.204.171:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53504 192.229.210.176:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60668 231.200.211.35.bc:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42590 80-77-87-164.stat:https SYN_SENT   
+tcp        1      0 doug.lab.ic.unica:59722 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42058 806.bm-nginx-load:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:41736 172.178.211.35.bc:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42852 52.46.155.104:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40172 server-13-227-127:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37210 13.107.42.14:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48114 ip24.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34208 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47836 69.173.151.100:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47046 server-13-227-97-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicamp:940 franjinha.lab.ic.un:nfs ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40658 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60180 49.246.178.107.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40704 139.148.107.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37114 server-18-64-174-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34202 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34208 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34206 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:45130 104.22.53.86:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34220 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:51896 199.232.114.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:43524 gru14s35-in-f14.1:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34202 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39020 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:39522 gru14s33-in-f2.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34222 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35574 140.24.207.35.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53338 192.146.102.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47048 server-13-227-97-:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:45244 mingau.lab.ic.unic:ldap ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40506 53.135.120.34.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:57002 ec2-35-170-152-34:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54716 ip-185-184-8-90.r:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39728 server-108-139-18:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47946 server-13-227-126:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60642 a104-122-239-77.d:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42004 207-207-55-241.fw:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34224 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40412 ec2-13-113-66-36.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:38376 172.64.161.6:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34218 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:56942 ec2-18-230-112-83:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41418 151.101.193.69:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34204 ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34222 ESTABLISHED
+tcp       78      0 doug.lab.ic.unica:45308 ec2-18-207-34-27.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42168 a184-84-132-23.de:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59458 gru14s19-in-f1.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40760 a2-23-189-20.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41738 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41734 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34220 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34824 ec2-52-38-91-115.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59124 gru14s20-in-f14.1:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42008 207-207-55-241 !Îî"
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34222 at time :: Tue Nov  1 20:42:52 2022 :: with the command: EXIT
+
+Proto  Destination       Source            State     Channel
+Proto  Destination       Source            State     Channel
+EXIT
+
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34218 at time :: Tue Nov  1 20:42:19 2022 :: with the command: /bin/netstat -a
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:sunrpc          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:59441           0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unicam:stss 0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unica:45302 ec2-18-207-34-27.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54882 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:40656 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54980 174.137.133.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39544 a-0005.a-msedge.n:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39022 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:59870 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53944 ip34.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:58626 104.19.159.19:https     TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:35590 a23-62-42-71.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34216 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:55906 ip186.ip-51-222-3:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37294 a104-122-245-217.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39018 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:34212 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35850 a95-101-25-134.dep:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54884 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:60488 ec2-18-156-32-70.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40660 a104-74-13-24.dep:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34206 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36794 server-108-158-14:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34212 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48618 ec2-3-210-227-164:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41178 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39024 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      1 doug.lab.ic.unica:42592 80-77-87-164.stat:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:38080 a104-122-230-227.d:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41180 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34218 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47180 cg-in-f188.1e10:hpvroom ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36226 104.244.42.1:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60040 162.248.18.11:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34204 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        1      0 doug.lab.ic.unica:59724 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:59872 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34214 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:49658 199.127.204.171:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53504 192.229.210.176:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60668 231.200.211.35.bc:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42590 80-77-87-164.stat:https SYN_SENT   
+tcp        1      0 doug.lab.ic.unica:59722 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42058 806.bm-nginx-load:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:41736 172.178.211.35.bc:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42852 52.46.155.104:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40172 server-13-227-127:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37210 13.107.42.14:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48114 ip24.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34208 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47836 69.173.151.100:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47046 server-13-227-97-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicamp:940 franjinha.lab.ic.un:nfs ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40658 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60180 49.246.178.107.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40704 139.148.107.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37114 server-18-64-174-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34202 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34208 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34206 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:45130 104.22.53.86:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34220 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:51896 199.232.114.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:43524 gru14s35-in-f14.1:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34202 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39020 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:39522 gru14s33-in-f2.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34222 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35574 140.24.207.35.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53338 192.146.102.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47048 server-13-227-97-:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:45244 mingau.lab.ic.unic:ldap ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40506 53.135.120.34.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:57002 ec2-35-170-152-34:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54716 ip-185-184-8-90.r:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39728 server-108-139-18:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47946 server-13-227-126:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60642 a104-122-239-77.d:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42004 207-207-55-241.fw:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34224 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40412 ec2-13-113-66-36.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:38376 172.64.161.6:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34218 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:56942 ec2-18-230-112-83:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41418 151.101.193.69:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34204 ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34222 ESTABLISHED
+tcp       78      0 doug.lab.ic.unica:45308 ec2-18-207-34-27.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42168 a184-84-132-23.de:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59458 gru14s19-in-f1.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40760 a2-23-189-20.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41738 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41734 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34220 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34824 ec2-52-38-91-115.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59124 gru14s20-in-f14.1:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42008 207-207-55-241 !Îî"
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34218 at time :: Tue Nov  1 20:42:52 2022 :: with the command: EXIT
+
+Proto  Destination       Source            State     Channel
+Proto  Destination       Source            State     Channel
+
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34212 at time :: Tue Nov  1 20:42:19 2022 :: with the command: /bin/netstat -a
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:sunrpc          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:59441           0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unicam:stss 0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unica:45302 ec2-18-207-34-27.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54882 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:40656 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54980 174.137.133.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39544 a-0005.a-msedge.n:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39022 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:59870 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53944 ip34.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:58626 104.19.159.19:https     TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:35590 a23-62-42-71.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34216 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:55906 ip186.ip-51-222-3:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37294 a104-122-245-217.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39018 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:34212 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35850 a95-101-25-134.dep:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54884 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:60488 ec2-18-156-32-70.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40660 a104-74-13-24.dep:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34206 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36794 server-108-158-14:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34212 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48618 ec2-3-210-227-164:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41178 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39024 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      1 doug.lab.ic.unica:42592 80-77-87-164.stat:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:38080 a104-122-230-227.d:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41180 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34218 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47180 cg-in-f188.1e10:hpvroom ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36226 104.244.42.1:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60040 162.248.18.11:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34204 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        1      0 doug.lab.ic.unica:59724 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:59872 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34214 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:49658 199.127.204.171:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53504 192.229.210.176:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60668 231.200.211.35.bc:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42590 80-77-87-164.stat:https SYN_SENT   
+tcp        1      0 doug.lab.ic.unica:59722 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42058 806.bm-nginx-load:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:41736 172.178.211.35.bc:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42852 52.46.155.104:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40172 server-13-227-127:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37210 13.107.42.14:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48114 ip24.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34208 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47836 69.173.151.100:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47046 server-13-227-97-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicamp:940 franjinha.lab.ic.un:nfs ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40658 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60180 49.246.178.107.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40704 139.148.107.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37114 server-18-64-174-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34202 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34208 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34206 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:45130 104.22.53.86:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34220 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:51896 199.232.114.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:43524 gru14s35-in-f14.1:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34202 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39020 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:39522 gru14s33-in-f2.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34222 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35574 140.24.207.35.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53338 192.146.102.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47048 server-13-227-97-:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:45244 mingau.lab.ic.unic:ldap ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40506 53.135.120.34.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:57002 ec2-35-170-152-34:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54716 ip-185-184-8-90.r:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39728 server-108-139-18:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47946 server-13-227-126:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60642 a104-122-239-77.d:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42004 207-207-55-241.fw:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34224 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40412 ec2-13-113-66-36.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:38376 172.64.161.6:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34218 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:56942 ec2-18-230-112-83:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41418 151.101.193.69:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34204 ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34222 ESTABLISHED
+tcp       78      0 doug.lab.ic.unica:45308 ec2-18-207-34-27.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42168 a184-84-132-23.de:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59458 gru14s19-in-f1.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40760 a2-23-189-20.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41738 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41734 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34220 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34824 ec2-52-38-91-115.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59124 gru14s20-in-f14.1:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42008 207-207-55-241 !Îî"
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34212 at time :: Tue Nov  1 20:42:52 2022 :: with the command: EXIT
+
+Proto  Destination       Source            State     Channel
+Proto  Destination       Source            State     Channel
+
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34224 at time :: Tue Nov  1 20:42:19 2022 :: with the command: /bin/netstat -a
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:sunrpc          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:59441           0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unicam:stss 0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unica:45302 ec2-18-207-34-27.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54882 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:40656 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54980 174.137.133.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39544 a-0005.a-msedge.n:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39022 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:59870 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53944 ip34.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:58626 104.19.159.19:https     TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:35590 a23-62-42-71.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34216 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:55906 ip186.ip-51-222-3:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37294 a104-122-245-217.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39018 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:34212 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35850 a95-101-25-134.dep:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54884 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:60488 ec2-18-156-32-70.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40660 a104-74-13-24.dep:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34206 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36794 server-108-158-14:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34212 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48618 ec2-3-210-227-164:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41178 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39024 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      1 doug.lab.ic.unica:42592 80-77-87-164.stat:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:38080 a104-122-230-227.d:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41180 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34218 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47180 cg-in-f188.1e10:hpvroom ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36226 104.244.42.1:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60040 162.248.18.11:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34204 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        1      0 doug.lab.ic.unica:59724 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:59872 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34214 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:49658 199.127.204.171:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53504 192.229.210.176:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60668 231.200.211.35.bc:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42590 80-77-87-164.stat:https SYN_SENT   
+tcp        1      0 doug.lab.ic.unica:59722 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42058 806.bm-nginx-load:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:41736 172.178.211.35.bc:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42852 52.46.155.104:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40172 server-13-227-127:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37210 13.107.42.14:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48114 ip24.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34208 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47836 69.173.151.100:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47046 server-13-227-97-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicamp:940 franjinha.lab.ic.un:nfs ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40658 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60180 49.246.178.107.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40704 139.148.107.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37114 server-18-64-174-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34202 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34208 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34206 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:45130 104.22.53.86:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34220 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:51896 199.232.114.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:43524 gru14s35-in-f14.1:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34202 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39020 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:39522 gru14s33-in-f2.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34222 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35574 140.24.207.35.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53338 192.146.102.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47048 server-13-227-97-:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:45244 mingau.lab.ic.unic:ldap ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40506 53.135.120.34.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:57002 ec2-35-170-152-34:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54716 ip-185-184-8-90.r:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39728 server-108-139-18:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47946 server-13-227-126:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60642 a104-122-239-77.d:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42004 207-207-55-241.fw:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34224 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40412 ec2-13-113-66-36.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:38376 172.64.161.6:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34218 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:56942 ec2-18-230-112-83:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41418 151.101.193.69:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34204 ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34222 ESTABLISHED
+tcp       78      0 doug.lab.ic.unica:45308 ec2-18-207-34-27.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42168 a184-84-132-23.de:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59458 gru14s19-in-f1.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40760 a2-23-189-20.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41738 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41734 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34220 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34824 ec2-52-38-91-115.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59124 gru14s20-in-f14.1:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42008 207-207-55-241 !Îî"
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34224 at time :: Tue Nov  1 20:42:52 2022 :: with the command: EXIT
+
+Proto  Destination       Source            State     Channel
+Proto  Destination       Source            State     Channel
+
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34220 at time :: Tue Nov  1 20:42:19 2022 :: with the command: /bin/netstat -a
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:sunrpc          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:59441           0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unicam:stss 0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unica:45302 ec2-18-207-34-27.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54882 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:40656 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54980 174.137.133.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39544 a-0005.a-msedge.n:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39022 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:59870 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53944 ip34.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:58626 104.19.159.19:https     TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:35590 a23-62-42-71.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34216 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:55906 ip186.ip-51-222-3:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37294 a104-122-245-217.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39018 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:34212 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35850 a95-101-25-134.dep:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54884 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:60488 ec2-18-156-32-70.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40660 a104-74-13-24.dep:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34206 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36794 server-108-158-14:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34212 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48618 ec2-3-210-227-164:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41178 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39024 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      1 doug.lab.ic.unica:42592 80-77-87-164.stat:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:38080 a104-122-230-227.d:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41180 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34218 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47180 cg-in-f188.1e10:hpvroom ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36226 104.244.42.1:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60040 162.248.18.11:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34204 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        1      0 doug.lab.ic.unica:59724 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:59872 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34214 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:49658 199.127.204.171:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53504 192.229.210.176:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60668 231.200.211.35.bc:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42590 80-77-87-164.stat:https SYN_SENT   
+tcp        1      0 doug.lab.ic.unica:59722 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42058 806.bm-nginx-load:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:41736 172.178.211.35.bc:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42852 52.46.155.104:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40172 server-13-227-127:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37210 13.107.42.14:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48114 ip24.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34208 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47836 69.173.151.100:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47046 server-13-227-97-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicamp:940 franjinha.lab.ic.un:nfs ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40658 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60180 49.246.178.107.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40704 139.148.107.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37114 server-18-64-174-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34202 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34208 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34206 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:45130 104.22.53.86:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34220 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:51896 199.232.114.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:43524 gru14s35-in-f14.1:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34202 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39020 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:39522 gru14s33-in-f2.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34222 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35574 140.24.207.35.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53338 192.146.102.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47048 server-13-227-97-:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:45244 mingau.lab.ic.unic:ldap ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40506 53.135.120.34.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:57002 ec2-35-170-152-34:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54716 ip-185-184-8-90.r:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39728 server-108-139-18:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47946 server-13-227-126:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60642 a104-122-239-77.d:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42004 207-207-55-241.fw:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34224 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40412 ec2-13-113-66-36.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:38376 172.64.161.6:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34218 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:56942 ec2-18-230-112-83:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41418 151.101.193.69:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34204 ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34222 ESTABLISHED
+tcp       78      0 doug.lab.ic.unica:45308 ec2-18-207-34-27.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42168 a184-84-132-23.de:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59458 gru14s19-in-f1.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40760 a2-23-189-20.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41738 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41734 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34220 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34824 ec2-52-38-91-115.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59124 gru14s20-in-f14.1:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42008 207-207-55-241 !Îî"
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34220 at time :: Tue Nov  1 20:42:52 2022 :: with the command: EXIT
+
+Proto  Destination       Source            State     Channel
+Proto  Destination       Source            State     Channel
+
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34204 at time :: Tue Nov  1 20:42:19 2022 :: with the command: /bin/netstat -a
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:sunrpc          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:59441           0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unicam:stss 0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unica:45302 ec2-18-207-34-27.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54882 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:40656 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54980 174.137.133.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39544 a-0005.a-msedge.n:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39022 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:59870 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53944 ip34.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:58626 104.19.159.19:https     TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:35590 a23-62-42-71.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34216 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:55906 ip186.ip-51-222-3:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37294 a104-122-245-217.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39018 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:34212 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35850 a95-101-25-134.dep:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54884 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:60488 ec2-18-156-32-70.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40660 a104-74-13-24.dep:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34206 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36794 server-108-158-14:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34212 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48618 ec2-3-210-227-164:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41178 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39024 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      1 doug.lab.ic.unica:42592 80-77-87-164.stat:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:38080 a104-122-230-227.d:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41180 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34218 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47180 cg-in-f188.1e10:hpvroom ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36226 104.244.42.1:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60040 162.248.18.11:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34204 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        1      0 doug.lab.ic.unica:59724 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:59872 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34214 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:49658 199.127.204.171:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53504 192.229.210.176:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60668 231.200.211.35.bc:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42590 80-77-87-164.stat:https SYN_SENT   
+tcp        1      0 doug.lab.ic.unica:59722 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42058 806.bm-nginx-load:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:41736 172.178.211.35.bc:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42852 52.46.155.104:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40172 server-13-227-127:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37210 13.107.42.14:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48114 ip24.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34208 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47836 69.173.151.100:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47046 server-13-227-97-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicamp:940 franjinha.lab.ic.un:nfs ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40658 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60180 49.246.178.107.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40704 139.148.107.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37114 server-18-64-174-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34202 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34208 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34206 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:45130 104.22.53.86:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34220 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:51896 199.232.114.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:43524 gru14s35-in-f14.1:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34202 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39020 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:39522 gru14s33-in-f2.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34222 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35574 140.24.207.35.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53338 192.146.102.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47048 server-13-227-97-:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:45244 mingau.lab.ic.unic:ldap ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40506 53.135.120.34.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:57002 ec2-35-170-152-34:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54716 ip-185-184-8-90.r:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39728 server-108-139-18:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47946 server-13-227-126:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60642 a104-122-239-77.d:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42004 207-207-55-241.fw:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34224 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40412 ec2-13-113-66-36.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:38376 172.64.161.6:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34218 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:56942 ec2-18-230-112-83:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41418 151.101.193.69:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34204 ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34222 ESTABLISHED
+tcp       78      0 doug.lab.ic.unica:45308 ec2-18-207-34-27.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42168 a184-84-132-23.de:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59458 gru14s19-in-f1.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40760 a2-23-189-20.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41738 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41734 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34220 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34824 ec2-52-38-91-115.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59124 gru14s20-in-f14.1:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42008 207-207-55-241 !Îî"
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34204 at time :: Tue Nov  1 20:42:52 2022 :: with the command: EXIT
+
+Proto  Destination       Source            State     Channel
+Proto  Destination       Source            State     Channel
+
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34202 at time :: Tue Nov  1 20:42:19 2022 :: with the command: /bin/netstat -a
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:sunrpc          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:59441           0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unicam:stss 0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unica:45302 ec2-18-207-34-27.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54882 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:40656 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54980 174.137.133.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39544 a-0005.a-msedge.n:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39022 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:59870 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53944 ip34.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:58626 104.19.159.19:https     TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:35590 a23-62-42-71.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34216 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:55906 ip186.ip-51-222-3:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37294 a104-122-245-217.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39018 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:34212 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35850 a95-101-25-134.dep:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54884 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:60488 ec2-18-156-32-70.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40660 a104-74-13-24.dep:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34206 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36794 server-108-158-14:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34212 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48618 ec2-3-210-227-164:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41178 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39024 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      1 doug.lab.ic.unica:42592 80-77-87-164.stat:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:38080 a104-122-230-227.d:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41180 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34218 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47180 cg-in-f188.1e10:hpvroom ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36226 104.244.42.1:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60040 162.248.18.11:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34204 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        1      0 doug.lab.ic.unica:59724 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:59872 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34214 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:49658 199.127.204.171:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53504 192.229.210.176:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60668 231.200.211.35.bc:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42590 80-77-87-164.stat:https SYN_SENT   
+tcp        1      0 doug.lab.ic.unica:59722 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42058 806.bm-nginx-load:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:41736 172.178.211.35.bc:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42852 52.46.155.104:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40172 server-13-227-127:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37210 13.107.42.14:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48114 ip24.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34208 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47836 69.173.151.100:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47046 server-13-227-97-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicamp:940 franjinha.lab.ic.un:nfs ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40658 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60180 49.246.178.107.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40704 139.148.107.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37114 server-18-64-174-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34202 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34208 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34206 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:45130 104.22.53.86:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34220 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:51896 199.232.114.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:43524 gru14s35-in-f14.1:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34202 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39020 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:39522 gru14s33-in-f2.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34222 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35574 140.24.207.35.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53338 192.146.102.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47048 server-13-227-97-:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:45244 mingau.lab.ic.unic:ldap ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40506 53.135.120.34.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:57002 ec2-35-170-152-34:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54716 ip-185-184-8-90.r:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39728 server-108-139-18:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47946 server-13-227-126:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60642 a104-122-239-77.d:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42004 207-207-55-241.fw:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34224 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40412 ec2-13-113-66-36.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:38376 172.64.161.6:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34218 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:56942 ec2-18-230-112-83:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41418 151.101.193.69:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34204 ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34222 ESTABLISHED
+tcp       78      0 doug.lab.ic.unica:45308 ec2-18-207-34-27.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42168 a184-84-132-23.de:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59458 gru14s19-in-f1.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40760 a2-23-189-20.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41738 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41734 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34220 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34824 ec2-52-38-91-115.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59124 gru14s20-in-f14.1:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42008 207-207-55-241 !Îî"
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34202 at time :: Tue Nov  1 20:42:52 2022 :: with the command: EXIT
+
+Proto  Destination       Source            State     Channel
+Proto  Destination       Source            State     Channel
+
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34208 at time :: Tue Nov  1 20:42:19 2022 :: with the command: /bin/netstat -a
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:sunrpc          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:59441           0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unicam:stss 0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unica:45302 ec2-18-207-34-27.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54882 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:40656 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54980 174.137.133.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39544 a-0005.a-msedge.n:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39022 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:59870 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53944 ip34.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:58626 104.19.159.19:https     TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:35590 a23-62-42-71.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34216 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:55906 ip186.ip-51-222-3:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37294 a104-122-245-217.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39018 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:34212 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35850 a95-101-25-134.dep:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54884 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:60488 ec2-18-156-32-70.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40660 a104-74-13-24.dep:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34206 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36794 server-108-158-14:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34212 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48618 ec2-3-210-227-164:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41178 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39024 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      1 doug.lab.ic.unica:42592 80-77-87-164.stat:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:38080 a104-122-230-227.d:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41180 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34218 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47180 cg-in-f188.1e10:hpvroom ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36226 104.244.42.1:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60040 162.248.18.11:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34204 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        1      0 doug.lab.ic.unica:59724 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:59872 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34214 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:49658 199.127.204.171:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53504 192.229.210.176:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60668 231.200.211.35.bc:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42590 80-77-87-164.stat:https SYN_SENT   
+tcp        1      0 doug.lab.ic.unica:59722 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42058 806.bm-nginx-load:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:41736 172.178.211.35.bc:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42852 52.46.155.104:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40172 server-13-227-127:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37210 13.107.42.14:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48114 ip24.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34208 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47836 69.173.151.100:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47046 server-13-227-97-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicamp:940 franjinha.lab.ic.un:nfs ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40658 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60180 49.246.178.107.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40704 139.148.107.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37114 server-18-64-174-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34202 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34208 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34206 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:45130 104.22.53.86:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34220 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:51896 199.232.114.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:43524 gru14s35-in-f14.1:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34202 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39020 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:39522 gru14s33-in-f2.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34222 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35574 140.24.207.35.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53338 192.146.102.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47048 server-13-227-97-:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:45244 mingau.lab.ic.unic:ldap ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40506 53.135.120.34.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:57002 ec2-35-170-152-34:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54716 ip-185-184-8-90.r:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39728 server-108-139-18:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47946 server-13-227-126:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60642 a104-122-239-77.d:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42004 207-207-55-241.fw:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34224 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40412 ec2-13-113-66-36.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:38376 172.64.161.6:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34218 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:56942 ec2-18-230-112-83:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41418 151.101.193.69:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34204 ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34222 ESTABLISHED
+tcp       78      0 doug.lab.ic.unica:45308 ec2-18-207-34-27.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42168 a184-84-132-23.de:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59458 gru14s19-in-f1.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40760 a2-23-189-20.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41738 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41734 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34220 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34824 ec2-52-38-91-115.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59124 gru14s20-in-f14.1:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42008 207-207-55-241 !Îî"
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34208 at time :: Tue Nov  1 20:42:52 2022 :: with the command: EXIT
+
+Proto  Destination       Source            State     Channel
+Proto  Destination       Source            State     Channel
+
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34214 at time :: Tue Nov  1 20:42:19 2022 :: with the command: /bin/netstat -a
+
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 0.0.0.0:sunrpc          0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:59441           0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unicam:stss 0.0.0.0:*               LISTEN     
+tcp        0      0 0.0.0.0:ssh             0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:ipp           0.0.0.0:*               LISTEN     
+tcp        0      0 localhost:smtp          0.0.0.0:*               LISTEN     
+tcp        0      0 doug.lab.ic.unica:45302 ec2-18-207-34-27.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54882 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:40656 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54980 174.137.133.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39544 a-0005.a-msedge.n:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39022 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:59870 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53944 ip34.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:58626 104.19.159.19:https     TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:35590 a23-62-42-71.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34216 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:55906 ip186.ip-51-222-3:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37294 a104-122-245-217.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39018 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:34212 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35850 a95-101-25-134.dep:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54884 monica.lab.ic.un:domain TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:60488 ec2-18-156-32-70.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40660 a104-74-13-24.dep:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34206 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36794 server-108-158-14:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34212 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48618 ec2-3-210-227-164:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41178 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39024 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      1 doug.lab.ic.unica:42592 80-77-87-164.stat:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:38080 a104-122-230-227.d:http ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41180 server-13-227-107:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34218 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47180 cg-in-f188.1e10:hpvroom ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:36226 104.244.42.1:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60040 162.248.18.11:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34204 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        1      0 doug.lab.ic.unica:59724 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:59872 104.36.113.107:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34214 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:49658 199.127.204.171:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53504 192.229.210.176:https   ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60668 231.200.211.35.bc:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42590 80-77-87-164.stat:https SYN_SENT   
+tcp        1      0 doug.lab.ic.unica:59722 ec2-3-214-33-241.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42058 806.bm-nginx-load:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:41736 172.178.211.35.bc:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42852 52.46.155.104:https     ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40172 server-13-227-127:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37210 13.107.42.14:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:48114 ip24.67-202-105.s:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34208 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47836 69.173.151.100:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47046 server-13-227-97-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicamp:940 franjinha.lab.ic.un:nfs ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40658 a104-74-13-24.dep:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60180 49.246.178.107.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40704 139.148.107.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:37114 server-18-64-174-:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34202 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34208 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34206 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:45130 104.22.53.86:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34220 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:51896 199.232.114.49:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:43524 gru14s35-in-f14.1:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34202 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39020 ns5012071.ip-15-2:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:39522 gru14s33-in-f2.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34222 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:35574 140.24.207.35.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:53338 192.146.102.34.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47048 server-13-227-97-:https TIME_WAIT  
+tcp        0      0 doug.lab.ic.unica:45244 mingau.lab.ic.unic:ldap ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40506 53.135.120.34.bc.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:57002 ec2-35-170-152-34:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:54716 ip-185-184-8-90.r:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:39728 server-108-139-18:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:47946 server-13-227-126:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:60642 a104-122-239-77.d:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42004 207-207-55-241.fw:https SYN_SENT   
+tcp        0      0 doug.lab.ic.unica:34224 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40412 ec2-13-113-66-36.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:38376 172.64.161.6:https      ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34218 doug.lab.ic.unicam:stss ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:56942 ec2-18-230-112-83:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41418 151.101.193.69:https    ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34204 ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34222 ESTABLISHED
+tcp       78      0 doug.lab.ic.unica:45308 ec2-18-207-34-27.:https CLOSE_WAIT 
+tcp        0      0 doug.lab.ic.unica:42168 a184-84-132-23.de:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59458 gru14s19-in-f1.1e:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:40760 a2-23-189-20.depl:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41738 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:41734 172.178.211.35.bc:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unicam:stss doug.lab.ic.unica:34220 ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:34824 ec2-52-38-91-115.:https ESTABLISHED
+tcp        0      0 doug.lab.ic.unica:59124 gru14s20-in-f14.1:https ESTABLISHED
+tcp        0      1 doug.lab.ic.unica:42008 207-207-55-241 !Îî"
+********** ::: END OF QUERY ::: **********
+Query Result from client IP :: 143.106.16.193 and PORT :: 34214 at time :: Tue Nov  1 20:42:52 2022 :: with the command: EXIT
+
+Proto  Destination       Source            State     Channel
+Proto  Destination       Source            State     Channel
+
+********** ::: END OF QUERY ::: **********

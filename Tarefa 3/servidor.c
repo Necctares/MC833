@@ -10,6 +10,8 @@
 #include <unistd.h>
 #include <ifaddrs.h>
 #include <arpa/inet.h>
+#include <signal.h>
+#include <sys/wait.h>
 
 #define LISTENQ 10
 #define MAXCLIREAD 8192
@@ -101,7 +103,8 @@ int Inet_pton(int af, const char *cp, void *buf)
     return result;
 }
 
-int Connect(int fd, const struct sockaddr *addr, socklen_t len){
+int Connect(int fd, const struct sockaddr *addr, socklen_t len)
+{
     int result = connect(fd, addr, len);
     if (result < 0)
     {
@@ -185,7 +188,7 @@ int readMsg(int connfd, FILE *stream, char *clientIP, uint16_t clientPort, char 
     time_t servtime;
     servtime = time(NULL);
     sprintf(clientInfo, "Query Result from client IP :: %s and PORT :: %u at time :: %.24s :: with the command: %s\n", clientIP, clientPort, ctime(&servtime), servMsg);
-    printf("Sending query to client IP :: %s and PORT :: %u at time :: %.24s :: with the command: %s\n", clientIP, clientPort, ctime(&servtime), servMsg);
+    // printf("Sending query to client IP :: %s and PORT :: %u at time :: %.24s :: with the command: %s\n", clientIP, clientPort, ctime(&servtime), servMsg);
     int n;
     memset(recvline, 0, sizeof(recvline));
     n = read(connfd, recvline, MAXCLIREAD);
@@ -220,6 +223,17 @@ int queryMsg(int connfd, FILE *stream, FILE *cmd, char *clientIP, uint16_t clien
     return 0;
 }
 
+void sig_chld(int signal)
+{
+    pid_t pid;
+    int stat;
+    while ((pid = waitpid(-1, &stat, WNOHANG)) > 0)
+    {
+        printf("child %d terminated\n", pid);
+    }
+    return;
+}
+
 int runServer(char *port)
 {
     int connfd, listenfd;
@@ -230,16 +244,17 @@ int runServer(char *port)
     pid_t pid;
 
     listenfd = initializeServer(port);
-
+    signal(SIGCHLD, sig_chld);
     for (;;)
     {
+        // sleep(10); Sleep adicionado para questão 2 - Tarefa 3
         connfd = accept(listenfd, (struct sockaddr *)NULL, NULL);
 
         if ((pid = fork()) == 0)
         {
             close(listenfd);
 
-            ticks = time(NULL); 
+            ticks = time(NULL);
 
             // Utilizamos getpeername para obter as informações do socket remoto
             Getpeername(connfd, (struct sockaddr *)&connAddr, &connLen);
@@ -259,8 +274,8 @@ int runServer(char *port)
             }
 
             inet_ntop(AF_INET, &(connAddr.sin_addr.s_addr), connAddrIP, INET_ADDRSTRLEN);
-            //Print para questão 3
-            //printf("CONNECTED -> Remote Socket from client IP :: %s and PORT:: %u at time :: %.24s\n", connAddrIP, ntohs(connAddr.sin_port), ctime(&ticks));
+            // Print para questão 3
+            printf("CONNECTED -> Remote Socket from client IP :: %s and PORT:: %u at time :: %.24s\n", connAddrIP, ntohs(connAddr.sin_port), ctime(&ticks));
             sprintf(clientInfo, "CONNECTED -> Remote Socket from client IP :: %s and PORT:: %u at time :: %.24s\n", connAddrIP, ntohs(connAddr.sin_port), ctime(&ticks));
             fputs(clientInfo, serverLog);
 
@@ -272,8 +287,8 @@ int runServer(char *port)
             write(connfd, "bye\n", strlen("bye\n"));
             close(connfd);
             memset(clientInfo, 0, sizeof(clientInfo));
-            //Print para questão 3
-            //printf("DISCONNECTED -> Remote Socket from client IP :: %s and PORT:: %u at time :: %.24s\n", connAddrIP, ntohs(connAddr.sin_port), ctime(&ticks));
+            // Print para questão 3
+            printf("DISCONNECTED -> Remote Socket from client IP :: %s and PORT:: %u at time :: %.24s\n", connAddrIP, ntohs(connAddr.sin_port), ctime(&ticks));
             sprintf(clientInfo, "DISCONNECTED -> Remote Socket from client IP :: %s and PORT:: %u at time :: %.24s\n", connAddrIP, ntohs(connAddr.sin_port), ctime(&ticks));
             fputs(clientInfo, serverLog);
             fclose(serverLog);
