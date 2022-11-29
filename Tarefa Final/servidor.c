@@ -1,4 +1,5 @@
 #include "netfunctions.h"
+#include "chat.h"
 
 int initializeServer(char *port)
 {
@@ -78,13 +79,6 @@ void sig_chld(int signal)
     }
     return;
 }
-
-struct client
-{
-    int id;
-    char*
-};
-
 
 int runServer(char *port)
 {
